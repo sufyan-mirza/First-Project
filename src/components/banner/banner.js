@@ -80,7 +80,7 @@ export default function Banner(){
                             <span id="serviceError"></span>
                             <textarea rows="5" name="message" placeholder="Messaage" className="form-name" id="message" required/>
                             <span id="messageError"></span>
-                            <button>SUBMIT</button>
+                            <button>SUBMITt</button>
                         </form>
                     </div>
                 </div>
