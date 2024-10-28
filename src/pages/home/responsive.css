@@ -1,0 +1,1174 @@
+@media (min-width: 320px) and (max-width: 767px){
+.about{
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    background-image: none;
+}
+.about-container{
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+}
+.about-content{
+    display: grid;
+    justify-content:space-between;
+}
+.about-img{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.about-img img{
+    max-width: 100%;
+    border-radius: 32px;
+
+    
+   
+  
+}
+.about-text{
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+}
+.about-text h4{
+    font-size: 11px;
+    font-family: "inter",sans-serif;
+    color: #F0592A;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.about-text h1{
+    font-family: "inter",sans-serif;
+    font-size: 26px;
+    color: #1b1b1b;
+    font-weight: 600;
+    margin-bottom: 16px;
+
+}
+.about-text p{
+    font-size: 11px;
+    line-height: 19px;
+    font-family: "inter",sans-serif;
+    color: #737373;
+    margin-bottom: 25px;
+
+}
+.about-text ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.stats-list ul{
+    margin-bottom: 4px;
+    
+}
+.stats-list ul li h1{
+    margin-bottom: 3px;
+}
+.stats-list img{
+    height: 50px;
+    padding: 0 25px;
+    width: 3px;
+}
+.about-text button{
+    color: #f3f3f3;
+    font-weight: 500;
+    font-size: 10px;
+    font-family: "inter",sans-serif;
+    background-color: #F0592A;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 23px;
+
+}
+.service{
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    background-image: none;
+}
+.title-container{
+    max-width: 493px;
+    margin: 0 auto 0 auto;
+}
+.service-title{
+    text-align: center;
+}
+.service-title h4{
+    color: #F0592A;
+    font-size: 11px;
+    font-family: "inter",sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.service-title h1{
+    font-size: 21px;
+    font-family: "inter",sans-serif;
+    font-weight: 600;
+    color: #1b1b1b;
+    
+}
+.service-title p{
+    font-size: 9px;
+    font-family: "inter",sans-serif;
+    font-weight:400;
+    color: #737373;
+    margin: 10px 0 25px 0;
+}
+.service-title img{
+    width: 10%;
+}
+.service-container{
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+.service-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.service-box{
+    
+    background-color: #ffffff;
+    
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin: 10px;
+    width: 50%;
+    padding: 30px;
+    height: 124px;
+}
+.service-box img{
+    width: 17%;
+    margin-bottom: 10px;
+}
+.service-box h1{
+    font-size: 12px;
+    font-family: "inter",sans-serif;
+    font-weight: 600;
+    color: #1b1b1b;
+    margin-bottom: 10px;
+}
+.service-box p{
+    font-size: 9px;
+    font-family: "inter",sans-serif;
+    font-weight: 300;
+    color: #737373;
+    line-height: 14px;
+}
+.service-content2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.portfolio{
+    padding: 30px 0;
+    background-color: #f4f4f4;
+   
+}
+.title-container{
+    max-width: 493px;
+    margin: 0 auto 0 auto;
+}
+.portfolio-title{
+    text-align: center;
+}
+.portfolio-title h4{
+    color: #F0592A;
+    font-size: 11px;
+    font-family: "inter",sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.portfolio-title h1{
+    font-size: 21px;
+    font-family: "inter",sans-serif;
+    font-weight: 600;
+    color: #1b1b1b;
+    
+}
+.portfolio-title p{
+    font-size: 9px;
+    font-family: "inter",sans-serif;
+    font-weight:400;
+    color: #737373;
+    margin: 10px 0 25px 0;
+}
+.portfolio-title img{
+    width: 10%;
+}
+.portfolio-container{
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+
+}
+.portfolio-content{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin:  0 auto;
+
+}
+.portfolio-box{
+    width: 100%;
+    margin: 0px 0px 40px 0;
+    position: relative;
+    
+}
+.portfolio-box img{
+    width: 100%;
+    border-radius: 6px;
+    height: 250px;
+    
+}
+.portfolio-text{
+    position: absolute;
+    bottom: -20px;
+    padding: 15px 40px 15px 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+}
+.portfolio-text h4{
+    font-family: "inter",sans-serif;
+    font-size: 13px;
+    color:#1b1b1b
+}
+.portfolio-text1{
+    position: absolute;
+    bottom: -20px;
+    padding: 15px 38px 15px 38px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+}
+.portfolio-text1 h4{
+    font-family: "inter",sans-serif;
+    font-size: 12px;
+    color:#1b1b1b
+}
+.portfolio-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+}
+.portfolio-btn button{
+    background-color: #F0592A;
+    padding: 8px 25px;
+    font-size: 10px;
+    color: #f3f3f3;
+    border: none;
+    border-radius: 4px;
+    font-weight: 300;
+}
+.contact{
+    padding:30px 0;
+    background-color: #f4f4f4;
+    background-image: none;
+    
+}
+.contact-container{
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+.contact-title{
+    width: 100%;
+    text-align: center;
+}
+.contact-content{
+    display: grid ;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+}
+.contact-info{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-title h4{
+    color: #F0592A;
+    font-size: 11px;
+    font-family: "inter",sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contact-title h1{
+    font-size: 20px;
+    font-family: "inter",sans-serif;
+    font-weight: 600;
+    color: #1b1b1b;
+    margin-bottom: 25px;
+    
+}
+.contact-box{
+    margin: 0 0 15px 50px;
+    display: flex;
+    width: 65%;
+    
+    
+}
+.contact-text h4{
+  font-family: "inter",sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 5px;
+}
+.contact-text{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.contact-text p{
+    font-size: 11px;
+    font-family: "inter",sans-serif;
+    color: #737373;
+    
+
+}
+.contact-box img{
+    width: 15%;
+    margin-right: 15px;
+}
+
+
+.contact-form{
+    width: 85%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 38px 0px #00000014;
+    border-radius: 8px;
+    margin: 0 auto;
+
+}
+.contact-form form{
+    padding: 40px 35px;
+}
+.contact-form form h1{
+    font-family: "inter",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact-form form p{
+    font-family: "inter",sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 23px;
+}
+.contact-form form .form-name{
+    background-color: #ececec;
+    border-radius: 4px;
+    margin-bottom: 13px;
+    font-size: 9px;
+    color: #acacac;
+    font-family: "inter",sans-serif;
+    width: 95%;
+    border: none;
+    padding: 13px 10px;
+    font-weight: 300;
+
+}
+.contact-form form button{
+    width: 100%;
+    background-color: #F0592A;
+    border-radius: 4px;
+    padding: 8px 10px;
+    text-align: center;
+    border: none;
+    font-family: "inter",sans-serif;
+    color: #f3f3f3;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .about{
+        padding: 90px 0;
+        background-color: #f4f4f4;
+        background-image: url(waves.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        
+    }
+    .about-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+        width: 90%;
+    }
+    .about-content{
+        display: flex;
+        justify-content:space-between;
+    }
+    .about-img{
+        width: 50%;
+        
+    }
+    .about-img img{
+        max-width: 97%;
+        border-radius: 32px;
+    
+        
+       
+      
+    }
+    .about-text{
+        width: 46.5%;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .about-text h4{
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        color: #F0592A;
+        margin-bottom: 12px;
+        font-weight: 700;
+    }
+    .about-text h1{
+        font-family: "inter",sans-serif;
+        font-size: 24px;
+        color: #1b1b1b;
+        font-weight: 600;
+        margin-bottom: 16px;
+    
+    }
+    .about-text p{
+        font-size: 9px;
+        line-height: 19px;
+        font-family: "inter",sans-serif;
+        color: #737373;
+        margin-bottom: 14px;
+    
+    }
+    .about-text ul{
+        display: flex;
+        list-style: none;
+    }
+    .stats-list ul{
+        
+        
+    }
+    .stats-list ul li h1{
+       
+    }
+    .stats-list ul .stats{
+        
+    }
+    .stats-list img{
+        height: 50px;
+        padding: 0 30px;
+        width: 3px;
+    }
+    .about-text button{
+        color: #f3f3f3;
+        font-weight: 500;
+        font-size: 10px;
+        font-family: "inter",sans-serif;
+        background-color: #F0592A;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 23px;
+    
+    }
+    .service{
+        padding: 60px 0;
+        background-color: #f4f4f4;
+        background-image: url(shape.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+    .title-container{
+        max-width: 493px;
+        margin: 0 auto 0 auto;
+    }
+    .service-title{
+        text-align: center;
+    }
+    .service-title h4{
+        color: #F0592A;
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .service-title h1{
+        font-size: 26px;
+        font-family: "inter",sans-serif;
+        font-weight: 600;
+        color: #1b1b1b;
+        
+    }
+    .service-title p{
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight:400;
+        color: #737373;
+        margin: 10px 0 45px 0;
+    }
+    .service-title img{
+        width: 10%;
+    }
+    .service-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+    }
+    .service-content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    .service-box{
+        
+        background-color: #ffffff;
+        
+        border-radius: 3px;
+        padding: 10px 10px;
+        margin: 10px;
+        width: 23%;
+        padding: 30px;
+        height: 124px;
+    }
+    .service-box img{
+        width: 30%;
+        margin-bottom: 15px;
+    }
+    .service-box h1{
+        font-size: 12px;
+        font-family: "inter",sans-serif;
+        font-weight: 600;
+        color: #1b1b1b;
+        margin-bottom: 10px;
+    }
+    .service-box p{
+        font-size: 9px;
+        font-family: "inter",sans-serif;
+        font-weight: 300;
+        color: #737373;
+        line-height: 14px;
+    }
+    .service-content2{
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio{
+        padding: 60px 0;
+        background-color: #f4f4f4;
+       
+    }
+    .title-container{
+        max-width: 493px;
+        margin: 0 auto 0 auto;
+    }
+    .portfolio-title{
+        text-align: center;
+    }
+    .portfolio-title h4{
+        color: #F0592A;
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .portfolio-title h1{
+        font-size: 26px;
+        font-family: "inter",sans-serif;
+        font-weight: 600;
+        color: #1b1b1b;
+        
+    }
+    .portfolio-title p{
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight:400;
+        color: #737373;
+        margin: 10px 0 45px 0;
+    }
+    .portfolio-title img{
+        width: 10%;
+    }
+    .portfolio-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+    
+    }
+    .portfolio-content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+    .portfolio-box{
+        width: 30%;
+        margin: 0px 20px 40px 0;
+        position: relative;
+        display:inline-block
+    }
+    .portfolio-box img{
+        width: 100%;
+        border-radius: 6px;
+        height: 250px;
+        
+    }
+    .portfolio-text{
+        position: absolute;
+        bottom: -20px;
+        padding: 15px 40px 15px 40px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        left: 15px;
+        right: 15px;
+        text-align: center;
+    }
+    .portfolio-text h4{
+        font-family: "inter",sans-serif;
+        font-size: 13px;
+        color:#1b1b1b
+    }
+    .portfolio-text1{
+        position: absolute;
+        bottom: -20px;
+        padding: 15px 30px 15px 30px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        left: 15px;
+        right: 15px;
+        text-align: center;
+    }
+    .portfolio-text1 h4{
+        font-family: "inter",sans-serif;
+        font-size: 13px;
+        color:#1b1b1b
+    }
+    .portfolio-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .portfolio-btn button{
+        background-color: #F0592A;
+        padding: 8px 25px;
+        font-size: 10px;
+        color: #f3f3f3;
+        border: none;
+        border-radius: 4px;
+        font-weight: 300;
+    }
+    .contact{
+        padding:60px 0;
+        background-color: #f4f4f4;
+        background-image: url(waves2.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+        
+    }
+    .contact-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+    }
+    .contact-content{
+        display: flex ;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact-info{
+        width: 45%;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .contact-title h4{
+        color: #F0592A;
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .contact-title h1{
+        font-size: 26px;
+        font-family: "inter",sans-serif;
+        font-weight: 600;
+        color: #1b1b1b;
+        margin-bottom: 40px;
+        
+    }
+    .contact-box{
+        margin-bottom: 20px;
+        display: flex;
+        
+    }
+    .contact-text h4{
+      font-family: "inter",sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #232323;
+      margin-bottom: 5px;
+    }
+    
+    .contact-text p{
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        color: #737373;
+        
+    
+    }
+    .contact-box img{
+        width: 15%;
+        margin-right: 15px;
+    }
+    
+    
+    .contact-form{
+        width: 47%;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 38px 0px #00000014;
+        border-radius: 8px;
+    
+    }
+    .contact-form form{
+        padding: 40px 35px;
+    }
+    .contact-form form h1{
+        font-family: "inter",sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .contact-form form p{
+        font-family: "inter",sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        margin-bottom: 23px;
+    }
+    .contact-form form .form-name{
+        background-color: #ececec;
+        border-radius: 4px;
+        margin-bottom: 13px;
+        font-size: 9px;
+        color: #acacac;
+        font-family: "inter",sans-serif;
+        width: 95%;
+        border: none;
+        padding: 13px 10px;
+        font-weight: 300;
+    
+    }
+    .contact-form form button{
+        width: 100%;
+        background-color: #F0592A;
+        border-radius: 4px;
+        padding: 8px 10px;
+        text-align: center;
+        border: none;
+        font-family: "inter",sans-serif;
+        color: #f3f3f3;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    .about{
+        padding: 90px 0;
+        background-color: #f4f4f4;
+        background-image: url(waves.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        
+    }
+    .about-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+    }
+    .about-content{
+        display: flex;
+        justify-content:space-between;
+    }
+    .about-img{
+        width: 50%;
+        
+    }
+    .about-img img{
+        max-width: 97%;
+        border-radius: 32px;
+    
+        
+       
+      
+    }
+    .about-text{
+        width: 46.5%;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .about-text h4{
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        color: #F0592A;
+        margin-bottom: 12px;
+        font-weight: 700;
+    }
+    .about-text h1{
+        font-family: "inter",sans-serif;
+        font-size: 26px;
+        color: #1b1b1b;
+        font-weight: 600;
+        margin-bottom: 16px;
+    
+    }
+    .about-text p{
+        font-size: 11px;
+        line-height: 19px;
+        font-family: "inter",sans-serif;
+        color: #737373;
+        margin-bottom: 25px;
+    
+    }
+    .about-text ul{
+        display: flex;
+        list-style: none;
+    }
+    .stats-list ul{
+        margin-bottom: 4px;
+        
+    }
+    .stats-list ul li h1{
+        margin-bottom: 3px;
+    }
+    .stats-list ul .stats{
+        
+    }
+    .stats-list img{
+        height: 50px;
+        padding: 0 30px;
+        width: 3px;
+    }
+    .about-text button{
+        color: #f3f3f3;
+        font-weight: 500;
+        font-size: 10px;
+        font-family: "inter",sans-serif;
+        background-color: #F0592A;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 23px;
+    
+    }
+    .service{
+        padding: 60px 0;
+        background-color: #f4f4f4;
+        background-image: url(shape.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+    .title-container{
+        max-width: 493px;
+        margin: 0 auto 0 auto;
+    }
+    .service-title{
+        text-align: center;
+    }
+    .service-title h4{
+        color: #F0592A;
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .service-title h1{
+        font-size: 26px;
+        font-family: "inter",sans-serif;
+        font-weight: 600;
+        color: #1b1b1b;
+        
+    }
+    .service-title p{
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight:400;
+        color: #737373;
+        margin: 10px 0 45px 0;
+    }
+    .service-title img{
+        width: 10%;
+    }
+    .service-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+    }
+    .service-content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .service-box{
+        
+        background-color: #ffffff;
+        
+        border-radius: 3px;
+        padding: 10px 10px;
+        margin: 10px;
+        width: 23%;
+        padding: 30px;
+        height: 124px;
+    }
+    .service-box img{
+        width: 30%;
+        margin-bottom: 15px;
+    }
+    .service-box h1{
+        font-size: 12px;
+        font-family: "inter",sans-serif;
+        font-weight: 600;
+        color: #1b1b1b;
+        margin-bottom: 10px;
+    }
+    .service-box p{
+        font-size: 9px;
+        font-family: "inter",sans-serif;
+        font-weight: 300;
+        color: #737373;
+        line-height: 14px;
+    }
+    .service-content2{
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio{
+        padding: 60px 0;
+        background-color: #f4f4f4;
+       
+    }
+    .title-container{
+        max-width: 493px;
+        margin: 0 auto 0 auto;
+    }
+    .portfolio-title{
+        text-align: center;
+    }
+    .portfolio-title h4{
+        color: #F0592A;
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .portfolio-title h1{
+        font-size: 26px;
+        font-family: "inter",sans-serif;
+        font-weight: 600;
+        color: #1b1b1b;
+        
+    }
+    .portfolio-title p{
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight:400;
+        color: #737373;
+        margin: 10px 0 45px 0;
+    }
+    .portfolio-title img{
+        width: 10%;
+    }
+    .portfolio-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+    
+    }
+    .portfolio-content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
+    .portfolio-box{
+        width: 30%;
+        margin: 0px 20px 40px 0;
+        position: relative;
+        display:inline-block
+    }
+    .portfolio-box img{
+        width: 100%;
+        border-radius: 6px;
+        height: 250px;
+        
+    }
+    .portfolio-text{
+        position: absolute;
+        bottom: -20px;
+        padding: 20px 55px 20px 55px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        left: 17px;
+        text-align: center;
+    }
+    .portfolio-text h4{
+        font-family: "inter",sans-serif;
+        font-size: 13px;
+        color:#1b1b1b
+    }
+    .portfolio-text1{
+        position: absolute;
+        bottom: -20px;
+        padding: 20px 42px 20px 48px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        left: 17px;
+        text-align: center;
+    }
+    .portfolio-text1 h4{
+        font-family: "inter",sans-serif;
+        font-size: 13px;
+        color:#1b1b1b
+    }
+    .portfolio-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .portfolio-btn button{
+        background-color: #F0592A;
+        padding: 8px 25px;
+        font-size: 10px;
+        color: #f3f3f3;
+        border: none;
+        border-radius: 4px;
+        font-weight: 300;
+    }
+    .contact{
+        padding:60px 0;
+        background-color: #f4f4f4;
+        background-image: url(waves2.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+        
+    }
+    .contact-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+    }
+    .contact-content{
+        display: flex ;
+        justify-content: space-between;
+    }
+    .contact-info{
+        width: 45%;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .contact-title h4{
+        color: #F0592A;
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .contact-title h1{
+        font-size: 26px;
+        font-family: "inter",sans-serif;
+        font-weight: 600;
+        color: #1b1b1b;
+        margin-bottom: 40px;
+        
+    }
+    .contact-box{
+        margin-bottom: 20px;
+        display: flex;
+        
+    }
+    .contact-text h4{
+      font-family: "inter",sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #232323;
+      margin-bottom: 5px;
+    }
+    
+    .contact-text p{
+        font-size: 11px;
+        font-family: "inter",sans-serif;
+        color: #737373;
+        
+    
+    }
+    .contact-box img{
+        width: 15%;
+        margin-right: 15px;
+    }
+    
+    
+    .contact-form{
+        width: 47%;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 38px 0px #00000014;
+        border-radius: 8px;
+    
+    }
+    .contact-form form{
+        padding: 40px 35px;
+    }
+    .contact-form form h1{
+        font-family: "inter",sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .contact-form form p{
+        font-family: "inter",sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        margin-bottom: 23px;
+    }
+    .contact-form form .form-name{
+        background-color: #ececec;
+        border-radius: 4px;
+        margin-bottom: 13px;
+        font-size: 9px;
+        color: #acacac;
+        font-family: "inter",sans-serif;
+        width: 95%;
+        border: none;
+        padding: 13px 10px;
+        font-weight: 300;
+    
+    }
+    .contact-form form button{
+        width: 100%;
+        background-color: #F0592A;
+        border-radius: 4px;
+        padding: 8px 10px;
+        text-align: center;
+        border: none;
+        font-family: "inter",sans-serif;
+        color: #f3f3f3;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}

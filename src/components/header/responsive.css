@@ -1,0 +1,256 @@
+@media (min-width: 320px) and (max-width: 767px) {
+   .list{
+    display: none;
+   }
+   .header-nav{
+      padding: 15px 20px;
+      background-color: #F3F3F3;
+      ;
+  }
+  .header-container{
+      max-width: 800px;
+      margin: 0 auto 0 auto;
+      overflow: hidden;
+  }
+  .nav-bar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  .nav-bar img{
+      width: 160px;
+      
+  }
+  .list ul{
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      
+  }
+  .list ul li{
+      padding: 10px 25px;
+      font-size: 11px;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1B1B;
+      font-weight: 600;
+  
+      
+  
+  }
+  #contact-btn{
+      display: none;
+  }
+  .menu-container{
+    max-width: 100%;
+  }
+  .bars{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+
+}
+  
+  .bars img{
+   width: 18%;
+  }
+  .slidebar{
+    background-color: #1B1B1B;
+    width: 100%;
+    padding: 30px 20px 0 20px;
+    position: fixed;
+    
+  }
+  .slidebar h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: "inter",sans-serif;
+    color: #f0592a;
+    line-height: 40px;
+    
+  }
+  .slidebar ul{
+    list-style: none;
+    text-align: center;
+
+  }
+  .slidebar ul li{
+    padding: 15px 10px;
+    border-top:1px solid #f0592a ;
+  }
+  .slidebar ul li a{
+    text-decoration: none;
+    color: #F3F3F3;
+  }
+  .openToggel{
+    background-color: #F3F3F3;
+  }
+  label{
+    position: absolute;
+  }
+  
+  #openMenu{
+    position: relative;
+    bottom: 150px;
+    
+  }
+  #openMenu{
+    display: none;
+  }
+  label #close{
+    position: absolute;
+    background-color: #f0592a;
+    cursor: pointer;
+
+  }
+ 
+  #openMenu:checked ~ .slidebar{
+    display: none;
+  }
+  #openMenu:checked ~ label #close{
+    display: none;
+  }
+  #openMenu:checked ~ label #open{
+    left: -10px;
+  }
+  
+  label #close{
+    right: 0;
+    z-index: 1111;
+    font-size: 26px;
+    padding: 6px 12px;
+    color: #F3F3F3;
+    
+  }
+
+  label #open{
+    left :0;
+    top: 14px;
+    font-size: 29px;
+    color: #F3F3F3;
+    padding: 6px 12px;
+    border-radius: 3px;
+    background-color: #f0592a;
+    cursor: pointer;
+    position: relative;
+  }
+ 
+  
+  
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .header-nav{
+        padding: 15px 0;
+        background-color: #F3F3F3;
+        ;
+    }
+    .header-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+        overflow: hidden;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .nav-bar img{
+        width: 160px;
+        
+    }
+    .list ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        
+    }
+    .list ul li{
+        padding: 10px 15px;
+        font-size: 11px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #1B1B1B;
+        font-weight: 600;
+    
+        
+    
+    }
+    .nav-bar button{
+        background-color: #f0592a;
+        font-size: 14px;
+        font-family: "inter",sans-serif;
+        border: none;
+        border-radius: 4px;
+        
+        padding: 5px 20px;
+        text-align: center;
+        color:  #F3F3F3;
+        ;
+    }
+    .bars{
+        display: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    .header-nav{
+        padding: 15px 0;
+        background-color: #F3F3F3;
+        ;
+    }
+    .header-container{
+        max-width: 800px;
+        margin: 0 auto 0 auto;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-bar img{
+        width: 160px;
+        
+    }
+    .list ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        
+    }
+    .list ul li{
+        padding: 10px 25px;
+        font-size: 11px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #1B1B1B;
+        font-weight: 600;
+    
+        
+    
+    }
+    .nav-bar button{
+        background-color: #f0592a;
+        font-size: 14px;
+        font-family: "inter",sans-serif;
+        border: none;
+        border-radius: 4px;
+        
+        padding: 5px 20px;
+        text-align: center;
+        color:  #F3F3F3;
+        ;
+    }
+    .bars{
+        display: none;
+    }
+}
+
